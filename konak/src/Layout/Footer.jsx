@@ -1,12 +1,12 @@
 import React from "react";
-import { Link } from "react-router-dom";
+
 const Footer = () => {
   return (
     <footer style={{ display: "flex" }}>
-      <Link>Home </Link>
-      <Link> Home</Link>
-      <Link> home</Link>
-      <Link> Home</Link>
+      <h1>Footer</h1>
+      <h1>Footer</h1>
+      <h1>Footer</h1>
+      <h1>Footer</h1>
     </footer>
   );
 };

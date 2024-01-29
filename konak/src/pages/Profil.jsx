@@ -2,8 +2,8 @@ import React from "react";
 
 const Profil = () => {
   return (
-    <div>
-      <h1>Profil</h1>
+    <div className=" p-3">
+      <h1 className="font-bold text-2xl p-3">Profil</h1>
 
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque eius

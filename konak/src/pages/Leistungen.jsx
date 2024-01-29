@@ -1,9 +1,10 @@
 import React from "react";
-
+import Button from "react-bootstrap/Button";
+import Card from "react-bootstrap/Card";
 const Leistungen = () => {
   return (
-    <div>
-      <h1>Unsere Leistungen</h1>
+    <div className=" p-3">
+      <h1 className="font-bold text-2xl p-3">Unsere Leistungen</h1>
 
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque eius
@@ -49,6 +50,41 @@ const Leistungen = () => {
         eligendi assumenda, quo quasi eum consectetur dolore vel autem
         reiciendis ex voluptatem ipsum veniam.
       </p>
+      <div className="flex justify-center  p-10">
+        <Card style={{ width: "18rem" }}>
+          <Card.Img variant="top" src="holder.js/100px180" />
+          <Card.Body>
+            <Card.Title>Card Title</Card.Title>
+            <Card.Text>
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </Card.Text>
+            <Button variant="primary">Go somewhere</Button>
+          </Card.Body>
+        </Card>
+        <Card style={{ width: "18rem" }}>
+          <Card.Img variant="top" src="holder.js/100px180" />
+          <Card.Body>
+            <Card.Title>Card Title</Card.Title>
+            <Card.Text>
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </Card.Text>
+            <Button variant="primary">Go somewhere</Button>
+          </Card.Body>
+        </Card>
+        <Card style={{ width: "18rem" }}>
+          <Card.Img variant="top" src="holder.js/100px180" />
+          <Card.Body>
+            <Card.Title>Card Title</Card.Title>
+            <Card.Text>
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </Card.Text>
+            <Button variant="primary">Go somewhere</Button>
+          </Card.Body>
+        </Card>
+      </div>
     </div>
   );
 };

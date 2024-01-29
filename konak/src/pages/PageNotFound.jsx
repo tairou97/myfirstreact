@@ -2,8 +2,8 @@ import React from "react";
 
 const PageNotFound = () => {
   return (
-    <div>
-      <h1>404 - Seite nicht gefunden</h1>
+    <div className=" p-3">
+      <h1 className="font-bold text-2xl p-3">404 - Seite nicht gefunden</h1>
       <p>
         Es tut uns leid, aber die von Ihnen angeforderte Seite konnte leider
         nicht gefunden werden. Möglicherweise haben Sie eine falsche URL

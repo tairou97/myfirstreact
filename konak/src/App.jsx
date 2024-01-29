@@ -7,9 +7,9 @@ function App() {
   return (
     <Layout>
       <Routes>
-        {routes.map((rou) => {
-          <Route key={rou.Id} {...rou} />;
-        })}
+        {routes.map((rou) => (
+          <Route key={rou.Id} {...rou} />
+        ))}
       </Routes>
     </Layout>
   );

@@ -2,8 +2,8 @@ import React from "react";
 
 const Datenschutz = () => {
   return (
-    <div>
-      <h1>Datenschutzerklärung</h1>
+    <div className=" p-3">
+      <h1 className="font-bold text-2xl p-3">Datenschutzerklärung</h1>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque eius
         ipsum optio aliquam ratione nisi sunt temporibus debitis tenetur,

@@ -2,8 +2,8 @@ import React from "react";
 
 const Impressum = () => {
   return (
-    <div>
-      <h1>Impressum</h1>
+    <div className=" p-3">
+      <h1 className="font-bold text-2xl p-3">Impressum</h1>
 
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque eius
