@@ -13,9 +13,7 @@ const routes = [
   { path: "kontakt", element: <Kontakt />, Id: 4 },
   { path: "/impressum", element: <Impressum />, id: 5 },
   { path: "/datenschutz", element: <Datenschutz />, id: 6 },
-  { path: "*", element: <PageNotFound />, id: 6 },
+  { path: "*", element: <PageNotFound />, id: 7 },
 ];
-
-<Route path="/" element={<Home />} />;
 
 export default routes;

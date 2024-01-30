@@ -50,8 +50,7 @@ const Leistungen = () => {
         eligendi assumenda, quo quasi eum consectetur dolore vel autem
         reiciendis ex voluptatem ipsum veniam.
       </p>
-      <div className="flex justify-center  p-10">
-        <Card style={{ width: "18rem" }}>
+      {/* <Card style={{ width: "18rem" }}>
           <Card.Img variant="top" src="holder.js/100px180" />
           <Card.Body>
             <Card.Title>Card Title</Card.Title>
@@ -83,8 +82,7 @@ const Leistungen = () => {
             </Card.Text>
             <Button variant="primary">Go somewhere</Button>
           </Card.Body>
-        </Card>
-      </div>
+        </Card> */}
     </div>
   );
 };
