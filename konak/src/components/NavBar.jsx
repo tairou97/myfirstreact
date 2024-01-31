@@ -1,5 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import Firma from "../img/Firma";
 
 const NavBar = () => {
   const navBarStyle = [
@@ -12,24 +13,19 @@ const NavBar = () => {
   ];
 
   return (
-    <nav>
-      <ul className="flex  bg-slate-500 p-4">
+    <nav className=" ">
+      <ul className="flex  px-3 py-5 justify-center ">
         {navBarStyle.map((e) => (
           <li key={e.Id} className="p-2">
-            <NavLink
-              className={"p-3 rounded"}
-              to={e.to}
-              style={({ isActive }) => ({
-                color: isActive ? "lightblue" : "lightgreen",
-                fontWeight: isActive ? "bold" : "normal",
-                backgroundColor: isActive ? "red" : "",
-              })}
-            >
+            <NavLink className={"p-3 rounded"} to={e.to}>
               {e.name}
             </NavLink>
           </li>
         ))}
       </ul>
+      <div className="flex  px-3 py-5 justify-center ">
+        <Firma />
+      </div>
     </nav>
   );
 };
